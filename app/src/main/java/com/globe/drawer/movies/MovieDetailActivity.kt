@@ -19,6 +19,7 @@ class MovieDetailActivity: AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_movie_detail)
+        supportActionBar?.title = "Movies"
 
         ivDMoviePoster = findViewById(R.id.ivDMoviePoster)
         tvDMovieTitle = findViewById(R.id.tvDMovieTitle)

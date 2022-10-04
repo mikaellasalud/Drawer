@@ -33,6 +33,7 @@
         </activity>
         <activity android:name="com.globe.tipcalculator.TipCalculatorActivity" />
         <activity android:name="com.globe.movies.MainMovieActivity" />
+        <activity android:name="com.globe.movies.MovieDetailActivity" />
 
     </application>
 

@@ -15,12 +15,14 @@ class MainMovieActivity : AppCompatActivity() {
 
     private val movies: ArrayList<Movie> = ArrayList()
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_moviemain)
 
         rvMovies = findViewById(R.id.rvMovies)
         rvMovies.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
+        supportActionBar?.title = "Movies"
 
         movieAdapter.onItemClickListener = object:OnItemClickListener{
 
