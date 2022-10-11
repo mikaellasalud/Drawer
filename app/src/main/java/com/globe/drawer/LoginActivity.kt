@@ -12,7 +12,7 @@ import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 import com.globe.drawer.Constants
 import com.globe.drawer.MainActivity
-import com.globe.drawer.R
+import com.globe.todo.R
 
 class LoginActivity : AppCompatActivity() {
 

@@ -14,6 +14,8 @@ import androidx.drawerlayout.widget.DrawerLayout
 import com.globe.forms.LoginActivity
 import com.globe.movies.MainMovieActivity
 import com.globe.tipcalculator.TipCalculatorActivity
+import com.globe.todo.R
+import com.globe.todo.TodoMainActivity
 import com.google.android.material.navigation.NavigationView
 
 // Declare main_menu.xml inside res/menu
@@ -71,6 +73,9 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             R.id.action_movies->{
                 Log.d("Main Activity", "Movies")
             }
+            R.id.action_todo->{
+                Log.d("Main Activity", "Movies")
+            }
 
         }
 
@@ -87,6 +92,10 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             R.id.action_calculator->{
                 val calculatorIntent = Intent(this, TipCalculatorActivity::class.java)
                 startActivity(calculatorIntent)
+            }
+            R.id.action_todo->{
+                val todoIntent = Intent(this, TodoMainActivity::class.java)
+                startActivity(todoIntent)
             }
             R.id.action_logout -> {
 

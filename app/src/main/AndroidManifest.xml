@@ -25,7 +25,7 @@
         </activity>
 
         <activity
-            android:name=".MainActivity">
+            android:name=".TodoMainActivity">
 
             <meta-data
                 android:name="android.app.lib_name"
@@ -34,6 +34,8 @@
         <activity android:name="com.globe.tipcalculator.TipCalculatorActivity" />
         <activity android:name="com.globe.movies.MainMovieActivity" />
         <activity android:name="com.globe.movies.MovieDetailActivity" />
+        <activity android:name="com.globe.drawer.MainActivity" />
+
 
     </application>
 

@@ -10,6 +10,10 @@
             android:id="@+id/action_movies"
             android:icon="@drawable/ic_movies"/>
         <item
+            android:title="Todo"
+            android:id="@+id/action_todo"
+            android:icon="@drawable/ic_todo"/>
+        <item
                 android:id="@+id/action_logout"
                 android:title="Logout"/>
 </menu>
